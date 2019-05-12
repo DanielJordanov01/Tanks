@@ -24,12 +24,12 @@ SECRET_KEY = '-olz)!qox*gl@h+itakb%&jb!x*srky#f*rp56d@$-y+3l8o1^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = []
 
 # Application definition
 
 INSTALLED_APPS = [
-    'tanks_backend.apps.PollsConfig',
+    'tanks_backend.apps.TanksConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

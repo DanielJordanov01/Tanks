@@ -4,7 +4,7 @@ import os
 
 if __name__ == '__main__':
 
-    subprocess.run(["ng", "build", "--extractCss=true"])
+    subprocess.run(["ng", "build", "--extractCss=true"], shell=True)
 
     source_dir = 'dist/tanks/'
     source = os.listdir(source_dir)
